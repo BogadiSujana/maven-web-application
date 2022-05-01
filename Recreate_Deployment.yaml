@@ -23,7 +23,7 @@ spec:
            spec:
                containers:
                      - name: mavencontainer
-                       image: sujanadevops/recreatedeployment:${BUILD_NUMBER}
+                       image: sujanadevops/recreatedeployment:tag
                        ports:
                            - containerPort: 8080
                        resources:
