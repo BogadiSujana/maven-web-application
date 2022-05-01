@@ -13,7 +13,8 @@ spec:
      selector:
           matchLabels:
               app: maven
-     strategy: Recreate
+     strategy:
+           type: Recreate
      template:
            metadata:
                   name: mavenpod
